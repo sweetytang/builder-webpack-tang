@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <%= require('raw-loader!./meta.html')%>
+        <title>webpack</title>        
+        <script><%= require('raw-loader!babel-loader!../../../../../node_modules/lib-flexible/flexible.js') %></script>
+    </head>
+    <body>
+        <div id="root"><!--HTML_PLACEHOLD--></div>
+        <!--INITIAL_DATA_PLACEHOLD-->
+    </body>
+</html>
